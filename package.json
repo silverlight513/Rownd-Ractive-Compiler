@@ -1,0 +1,45 @@
+{
+  "name": "rownd-ractive-compiler",
+  "description": "A grunt task to translate handlebars files into ractive objects for the Rownd.js project",
+  "version": "2.0.1",
+  "homepage": "https://github.com/silverlight513/Rownd-Ractive-Compiler",
+  "author": {
+    "name": "Jack Rimell",
+    "email": "jackrimell123@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silverlight513/Rownd-Ractive-Compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silverlight513/Rownd-Ractive-Compiler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/silverlight513/Rownd-Ractive-Compiler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "path": "^0.12.7",
+    "ractive": "^0.7.3"
+  }
+}
